@@ -7,16 +7,16 @@
 }
 
 body {
+    font-family: 'Open Sans', sans-serif;
+    
+    height: 100%;
+    width: 100%;
+
     text-align: center;
-    color: #222016;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-    width: 100%;
+    flex-wrap: column;
 }
 
 .container .header {
@@ -26,7 +26,7 @@ body {
 
 .container .nav {
     background-color: #666666;
-    height: 35px;
+    height: 40px;
 }
 
 .container .main {
@@ -36,5 +36,5 @@ body {
 
 .container .footer {
     background-color: #b5b5b5;
-    height: 35px;
+    height: 40px;
 }

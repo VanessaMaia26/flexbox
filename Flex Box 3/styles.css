@@ -4,55 +4,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
+    
 
 .container {
     height: 100%;
     width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header {
-    height: 35px;
+    height: 50px;
     width: 100%;
-
-    text-align: center;
 
     background-color: #707173;
 }
 
 .l-esq {
-    height: 65px;
-    width: 100%;
-
-    text-align: center;
+    height: 655px;
+    width: 30%;
 
     background-color: #404143;
 }
 
 .main {
-    height: 600px;
-    width: 100%;
-
-    text-align: center;
+    height: 655px;
+    width: 50%;
 
     background-color: #909193;
 }
 
-.footer {
-    height: 35px;
-    width: 100%;
+.l-dir {
+    height: 655px;
+    width: 20%;
 
-    text-align: center;
+    background-color: #404143;
+}
+
+.footer {
+    height: 40px;
+    width: 100%;
 
     background-color: #B0B1B3;
 }
