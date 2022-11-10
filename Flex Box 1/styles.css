@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    color: #222016;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.container .header {
+    background-color: #515151;
+    height: 60px;
+}
+
+.container .nav {
+    background-color: #666666;
+    height: 35px;
+}
+
+.container .main {
+    background-color: #8c8c8c;
+    height: 605px;
+}
+
+.container .footer {
+    background-color: #b5b5b5;
+    height: 35px;
+}
